@@ -273,59 +273,15 @@ export default {
   referencias: [
     {
       referencia:
-        'Araque, J. (13 de noviembre de 2013). Tiqueteador de tela. [video]. Youtube.',
-      link: 'https://youtu.be/uO2HGq24lkE',
-    },
-    {
-      referencia:
-        'Digitalmentes asesorías. (28 de junio de 2020). Manipulando pinzas en Optitex. [video]. Youtube.',
-      link: 'https://youtu.be/7X9G8DTMV9w',
-    },
-    {
-      referencia:
         'Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3. Servicio Nacional de Aprendizaje SENA.',
-      link: 'https://repositorio.sena.edu.co/handle/11404/1432?show=full',
-    },
-    {
-      referencia:
-        'Evalds, P. (13 de Julio 2019). Máquina fusionadora. [video]. Youtube.',
-      link: 'https://youtu.be/56wpJlyR_v4',
     },
     {
       referencia:
         'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011).  Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
-    },
-    {
-      referencia:
-        'Herramientas digitales Moda. (13 de junio 2018). AUDACES TIZADA Trazo. [video]. Youtube.',
-      link: 'https://youtu.be/C0O6derJC2s',
-    },
-    {
-      referencia:
-        'Herramientas digitales Moda. (15 de marzo 2018). OPTITEX - MARKER Trazo de patrones. [video]. Youtube.',
-      link: 'https://youtu.be/fscxWYsenLE',
-    },
-    {
-      referencia:
-        'Herramientas digitales Moda. (2 de mayo 2018). Falda Basica. [video]. Youtube.',
-      link: 'https://youtu.be/oBVuhFGidN4',
-    },
-    {
-      referencia:
-        'Lisandro, L. (24, de octubre de 2020). Cómo crear pinzas en Optitex. [video]. Youtube.',
-      link: 'https://www.youtube.com/watch?v=DX9-gvA37e4&feature=youtu.be',
-    },
-    {
-      referencia:
-        'Londoño, A. (31 de marzo de 2020). Corpiño. [video]. Youtube',
-      link: 'https://youtu.be/yUYtfsOZoSg',
     },
     {
       referencia:
         'Vélez, M., García M., Hincapié L. (1996).  Patronaje y escalado línea interior y deportiva.  Servicio Nacional de Aprendizaje SENA.',
-      link: 'https://repositorio.sena.edu.co/handle/11404/4811',
     },
   ],
   creditos: [
@@ -334,8 +290,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -357,17 +314,17 @@ export default {
           nombre: 'Natalia Andrea Bueno Pizarro',
           cargo: 'Diseñadora instruccional y evaluadora instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Distrito Capital',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Diseñadora instruccional y evaluadora instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Distrito Capital',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -388,7 +345,7 @@ export default {
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -401,8 +358,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
