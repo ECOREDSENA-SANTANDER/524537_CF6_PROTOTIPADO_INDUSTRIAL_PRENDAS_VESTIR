@@ -145,11 +145,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -171,69 +166,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Personalizar área de trabajo.',
-      referencia: 'Araque, J. (13 de noviembre de 2013). Tiqueteador de tela.',
-      tipo: 'Video',
-      link: 'https://youtu.be/uO2HGq24lkE',
-    },
-    {
-      tema: 'Reconocimiento de las prendas.',
-      referencia:
-        'Digitalmentes asesorías. (28 de junio de 2020). Manipulando pinzas en  Optitex.',
-      tipo: 'Video',
-      link: 'https://youtu.be/7X9G8DTMV9w',
-    },
-    {
-      tema: 'Trazo y corte manual.',
-      referencia:
-        'Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3. Servicio Nacional de Aprendizaje SENA.',
-      tipo: 'Libro',
-      link: 'downloads/modisteria-principios-basicos-de-corte.pdf',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia:
-        'Gutiérrez, L (2011). Como graduar los patrones básicos de dama.',
-      tipo: 'Video',
-      link: 'https://youtu.be/amafgzhmMlw',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia:
-        'Herramientas digitales Moda. (13 de junio 2018). AUDACES TIZADA Trazo.',
-      tipo: 'Video',
-      link: 'https://youtu.be/C0O6derJC2s',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia:
-        'Herramientas digitales Moda. (15 de marzo 2018). OPTITEX - MARKER Trazo de patrones.',
-      tipo: 'Video',
-      link: 'https://youtu.be/fscxWYsenLE',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia:
-        'Herramientas digitales Moda. (2 de mayo 2018). OPTITEX Falda Básica.',
-      tipo: 'Video',
-      link: 'https://youtu.be/oBVuhFGidN4',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia:
-        'Lisandro, L. (24, de octubre de 2020). Cómo crear pinzas en Optitex.',
-      tipo: 'Video',
-      link: 'https://youtu.be/DX9-gvA37e4',
-    },
-    {
-      tema: 'Trazado de patrones.',
-      referencia: 'Londoño, A. (31 de marzo de 2020). Corpiño.',
-      tipo: 'Video',
-      link: 'https://youtu.be/yUYtfsOZoSg',
-    },
-  ],
   glosario: [
     {
       termino: '<em>Marker</em>',
