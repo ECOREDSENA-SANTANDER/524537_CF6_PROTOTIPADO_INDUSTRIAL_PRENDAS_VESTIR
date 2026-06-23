@@ -335,32 +335,32 @@
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen1.svg" alt="")
-            p.text-center #[b Patrones ]
+            p.text-center #[b Patrones]
           .tarjeta.bg5.p-4
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen2.svg" alt="")
-            p.text-center #[b Reglas ]
+            p.text-center #[b Reglas]
           .tarjeta.bg5.p-4
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen3.svg" alt="")
-            p.text-center #[b Metro ]
+            p.text-center #[b Metro]
           .tarjeta.bg5.p-4
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen4.svg" alt="")
-            p.text-center #[b Jaboncillo o tizas ]
+            p.text-center #[b Jaboncillo o tizas]
           .tarjeta.bg5.p-4
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen5.svg" alt="")
-            p.text-center #[b Papel trazo ]
+            p.text-center #[b Papel trazo]
           .tarjeta.bg5.p-4
             .row.justify-content-center.mb-3
               .col-8.col-lg-6
                 img(src="@/assets/curso/temas/tema2/tarjeta3/imagen6.svg" alt="")
-            p.text-center #[b Mesa de corte ]
+            p.text-center #[b Mesa de corte]
 
 
     .subt.mb-4(data-aos="fade-right")
@@ -368,20 +368,56 @@
         img(src='@/assets/curso/temas/subt.svg', alt='')
         h3.mb-0.ms-2 Máquinas de corte industrial
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
-      .col-lg-10
-        img(src='@/assets/curso/temas/tema2/maq1.png', alt='La imagen presenta varias cortadoras utilizadas en la confección textil, incluyendo una cortadora automática, una cortadora sin fin, una cortadora vertical, una cortadora circular y una cortadora de mano. Además, expone un guante de malla que se utiliza como equipo de seguridad al manejar estas herramientas de corte. ')
- 
+    .row.justify-content-around.align-items-center.mb-5(data-aos="fade")
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen1.png', alt='')
+          h5 Cortadora automática
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen2.png', alt='')
+          h5 Cortadora sin fin
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen3.png', alt='')
+          h5 Cortadora vertical
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen4.png', alt='')
+          h5 Cortadora circular
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen5.png', alt='')
+          h5 Cortadora de mano
+      .col-lg-4.col-md-6.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.p-4
+          img(src='@/assets/curso/temas/tema2/tar15/imagen6.png', alt='')
+          h5 Guante malla
+
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/subt.svg', alt='')
         h3.mb-0.ms-2 Otras herramientas
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
-      .col-lg-8
-        img(src='@/assets/curso/temas/tema2/herram1.png', alt='La imagen describe herramientas esenciales para la confección textil, incluyendo tijeras, un punzón, una máquina perforadora y agujas o alfileres para la sujeción del textil. Cada herramienta está ilustrada con su respectiva etiqueta, indicando su uso específico en el proceso de confección. ')
-
+    .row.justify-content-around.mb-5(data-aos="fade")
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+          img(src='@/assets/curso/temas/tema2/herram1/imagen1.png', alt='')
+          h5 Tijeras
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+          img(src='@/assets/curso/temas/tema2/herram1/imagen2.png', alt='')
+          h5 Punzón
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+          img(src='@/assets/curso/temas/tema2/herram1/imagen3.png', alt='')
+          h5 Maquina perforadora
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+          img(src='@/assets/curso/temas/tema2/herram1/imagen4.png', alt='')
+          h5 Agujas o alfileres para sujeción del textil
+    
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--grisos" data-aos="fade")
       .row.justify-content-around(titulo="Urdimbre y trama")
         .col-md-6.col-lg-7.mb-4.mb-md-0
@@ -550,7 +586,19 @@
             li.mb-0
               i.fas.fa-circle
               span.mb-0.h4 Herramientas
-        img(src='@/assets/curso/temas/tema2/herram2.png', alt='')
+      .row.justify-content-center
+        .col-lg-3.col-md-4.col-10.mb-3
+          .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+            img.px-lg-5(src='@/assets/curso/temas/tema2/tar16/img1.png', alt='')
+            h5 Pesas
+        .col-lg-3.col-md-4.col-10.mb-3
+          .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+            img.px-lg-5(src='@/assets/curso/temas/tema2/tar16/img2.png', alt='')
+            h5 Pinzas
+        .col-lg-3.col-md-4.col-10.mb-3
+          .tarjeta.bgamarilloclaro.text-center.h-100.p-4
+            img.px-lg-5(src='@/assets/curso/temas/tema2/tar16/img3.png', alt='')
+            h5 Agujas o alfileres para sujeción textil
 
     .tarjeta.bgi-3.p-4.p-lg-5.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -698,9 +746,19 @@
         li.mb-0
           i.fas.fa-circle
           span.mb-0.h4 Tipos de trazo según requerimientos de patronaje:
-    .row.justify-content-center.mb-5
-      .col-lg-9
-        img(src='@/assets/curso/temas/tema2/tipos-trazo.png', alt='')
+    .row.justify-content-center.mb-5      
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen1.png', alt='')
+          h5 Requerimientos desde patronaje.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg8.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen2.png', alt='')
+          h5 Tendido y marcación.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen3.png', alt='')
+          h5 Características del material.
     
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -751,9 +809,19 @@
     
     p Para tener claro los requerimientos desde el área de patronaje es importante identificar y conocer la respectiva señalización de patrones:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        img(src='@/assets/curso/temas/tema2/senalizacion.png', alt='')
+    .row.justify-content-center.mb-4     
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen1.png', alt='')
+          h5 Requerimientos desde patronaje.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg8.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen2.png', alt='')
+          h5 Tendido y marcación.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen3.png', alt='')
+          h5 Características del material.
     
     p.mb-4 Hilo de tela una cabeza hacia arriba, hilo de tela una cabeza hacia abajo, hilo de tela una cabeza doble.
 
@@ -821,7 +889,7 @@
 
     Separador    
     #t_2_5.titulo-segundo.color-acento-contenido
-      h2 2.5  Tendido marcación y corte
+      h2 2.5 Tendido marcación y corte
     
     p.mb-4 El tendido y marcación son una parte clave para el proceso de corte, este procedimiento requiere de precisión y técnica. Una vez identificados los requerimientos desde el área de patronaje se procede a realizar el tendido y marcación, para ello es importante seguir los siguientes pasos:
      
@@ -1117,9 +1185,19 @@
           i.fas.fa-circle
           span.mb-0.h4 Tipos de trazo
     
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        img(src='@/assets/curso/temas/tema2/tipos-trazo2.png', alt='')
+    .row.justify-content-center.mb-5    
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen1.png', alt='')
+          h5 Requerimientos desde patronaje.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg8.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen2.png', alt='')
+          h5 Tendido y marcación.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta8/imagen3.png', alt='')
+          h5 Características del material.
         
 
     h4 #[b ¿Para qué? ]
@@ -1305,8 +1383,23 @@
           i.fas.fa-circle
           span.mb-0.h4 Tips de corte para cuadros 
 
-    .mb-5
-      img(src='@/assets/curso/temas/tema2/tips-corte.png', alt='')
+    .row.justify-content-center.mb-5      
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5.mb-3(src='@/assets/curso/temas/tema2/tarjeta13/imagen1.png', alt='')
+          h5 Ubicar los patrones en el textil y alinear para que coincidan las líneas.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg8.text-center.h-100.p-4
+          img.px-lg-5.mb-3(src='@/assets/curso/temas/tema2/tarjeta13/imagen2.png', alt='')
+          h5 Trazar en los patrones las líneas.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg7.text-center.h-100.p-4
+          img.px-lg-5.mb-3(src='@/assets/curso/temas/tema2/tarjeta13/imagen3.png', alt='')
+          h5 Realizar esto con cada una de las piezas de la prenda.
+      .col-lg-3.col-md-4.col-10.mb-3
+        .tarjeta.bg8.text-center.h-100.p-4
+          img.px-lg-5.mb-3(src='@/assets/curso/temas/tema2/tarjeta13/imagen4.png', alt='')
+          h5 Una vez ubicados se debe ir pintando y con la tiza ir agregando margen de costura.
     
     h4 Ejemplo de tipos de tendido con diferentes características del material
     p En el desarrollo de los contenidos se han identificado términos técnicos de la industria, los cuales se irán apropiando con mayor rigor en la práctica; la inmersión en la industria y el mercado permitirá afianzar cada vez más los conocimientos teóricos; sin embargo, con el fin de sintetizar de una manera más gráfica se hará la contextualización aplicada en diferentes tipos de materiales con una serie de moldes a escala que permitirán poner en práctica los conceptos explicados.
