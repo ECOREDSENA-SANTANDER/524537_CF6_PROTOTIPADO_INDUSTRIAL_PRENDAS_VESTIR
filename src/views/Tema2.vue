@@ -54,16 +54,16 @@
             ul.lista-ul--color.fa-ul.color-primario
               li 
                 i.fas.fa-plus
-                span.mb-0 Exteriores
+                span.mb-0 Exteriores.
               li
                 i.fas.fa-plus
-                span.mb-0 Interiores
+                span.mb-0 Interiores.
               li
                 i.fas.fa-plus
-                span.mb-0 Hilos
+                span.mb-0 Hilos.
               li
                 i.fas.fa-plus
-                span.mb-0 Fornituras y complementos
+                span.mb-0 Fornituras y complementos.
           .col-8.col-md-4.col-lg-4
             img(src="@/assets/curso/temas/tema2/imagen4.png", alt="")
       .tarjeta.bgi-4.p-4(titulo="Componentes exteriores")
@@ -87,7 +87,7 @@
                 i.fas.fa-plus 
                 span.mb-0 Puños, entre otros.
           .col-md-5.col-lg-5
-           img(src="@/assets/curso/temas/tema2/imagen5.png", alt="")
+            img(src="@/assets/curso/temas/tema2/imagen5.png", alt="")
       .tarjeta.bgi-4.p-4(titulo="Componentes interiores")
         .row
           .col-sm-12.col-md-7.col-lg-7
@@ -159,7 +159,7 @@
                 span Partes principales de un pantalón de vestir
             .col-12
               figure
-                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen1.svg", alt='Esquema de un pantalón de vestir con nomenclatura de sus partes principales en vista delantera y posterior, acompañado de una fotografía de la prenda terminada.')
+                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen1.svg", alt='Esquema de un pantalón de vestir con nomenclatura de sus partes en vista delantera y posterior, junto a una fotografía de la prenda.')
           .row.justify-content-center
             .col-11
               p.mb-4 Se presentan las partes que conforman un pantalón tipo jean en sus vistas delantera y posterior, permitiendo reconocer los elementos estructurales y funcionales de la prenda
@@ -168,7 +168,7 @@
                 span Partes principales de un pantalón tipo jean
             .col-12
               figure
-                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen2.svg", alt='Esquema de un pantalón tipo jean con identificación de sus componentes en vista delantera y posterior, acompañado de una fotografía de la prenda terminada.')
+                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen2.svg", alt='Esquema de un pantalón tipo jean con identificación de sus componentes en vista delantera y posterior, junto a una fotografía de la prenda.')
           .row.justify-content-center
             .col-11
               p.mb-4 Se identifican los componentes que conforman un pantalón deportivo, destacando los elementos característicos de ajuste y comodidad utilizados en este tipo de prenda.
@@ -177,7 +177,7 @@
                 span Partes principales de un pantalón deportivo
             .col-12
               figure
-                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen3.svg", alt='Esquema de un pantalón deportivo con pretina y botas encauchadas, mostrando sus partes en vista delantera y posterior junto a una fotografía de referencia.')
+                img(src="@/assets/curso/temas/tema2/tarjeta1/imagen3.svg", alt='Esquema de un pantalón deportivo con pretina y botas encauchadas, mostrando sus partes en vista delantera y posterior con una fotografía.')
 
     p.mb-4 Antes de iniciar el proceso de despiece, es fundamental comprender que esta etapa consiste en separar el patrón base en cada una de las piezas que conformarán la prenda durante la confección. El despiece permite identificar componentes, definir detalles constructivos, aplicar márgenes de costura y preparar los moldes para el corte, garantizando precisión en el ensamblaje y una correcta interpretación del diseño. A continuación, se presenta el despiece de diferentes tipos de prendas y sus respectivas piezas.
 
@@ -322,7 +322,7 @@
       .col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/temas/tema2/imagen14.png", alt='')
 
-     
+    
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/subt.svg', alt='')
@@ -540,7 +540,7 @@
               p Se obtiene presionando unos elementos mecánicos calientes en el borde de la tela, este método se puede aplicar en textiles de fibras sintéticas. 
           .row(numero="E" titulo="Orillos lisos")
             .col-md-12.mb-4.mb-md-0
-              p Este tipo de orillo también llamado orillo de estampación es usado para controlar los colores básicos que tiene el dibujo, enumerándolos en el orden de estampación, además añade la marca del fabricante. 
+              p Este tipo de orillo, también llamado orillo de estampación, es usado para controlar los colores básicos que tiene el dibujo, enumerándolos en el orden de estampación, además añade la marca del fabricante.
           .row(numero="F" titulo="Orillos de cinta")
             .col-md-12.mb-4.mb-md-0
               p Este tipo de orillo es utilizado por los fabricantes de textiles clásicos como paños, también tejen sus nombres en el orillo para que sean identificados fácilmente en las sastrerías a medida. 
@@ -606,7 +606,7 @@
           img(src="@/assets/curso/temas/tema2/imagen24.png") 
         .col-sm-12.col-md-7.col-lg-7
           h4 Extendido manual
-          p.mb-0 En el extendido manual se sitúa la pieza de textil en un extremo de la mesa, mientras dos operarios efectúan el estirado de la tela (pueden también utilizar un carro de extendido) hasta el largo previamente establecido.
+          p.mb-0 En el extendido manual, se sitúa la pieza de textil en un extremo de la mesa, mientras dos operarios efectúan el estirado de la tela (pueden también utilizar un carro de extendido) hasta el largo previamente establecido.
     
     p.mb-4 Recomendaciones:
 
@@ -615,10 +615,10 @@
         LineaTiempoD.color-acento-botones
           .row(numero="A" titulo="Alineación")
             .col-md-12.mb-4.mb-md-0
-              p Se recomienda que el textil se encuentre completamente alineado al orillo, de ser posible alinear los dos orillos.
+              p Se recomienda que el textil se encuentre completamente alineado al orillo, de ser posible, alinear los dos orillos.
           .row(numero="B" titulo="Tensión")
             .col-md-12.mb-4.mb-md-0
-              p En lo posible evitar la tensión en la tela, ya que después del corte las piezas pueden quedar reducidas (pequeñas con relación al tamaño real del molde).  
+              p En lo posible, evitar la tensión en la tela, ya que después del corte las piezas pueden quedar reducidas (pequeñas con relación al tamaño real del molde).  
           .row(numero="C" titulo="Arrugas")
             .col-md-12.mb-4.mb-md-0
               p Evitar que la tela se encuentre arrugada en el tendido para que no se formen burbujas de aire, que ocasionan distorsiones en el corte. 
@@ -634,7 +634,7 @@
           img(src="@/assets/curso/temas/tema2/imagen26.svg") 
         .col-md-7.col-lg-7
           h4 Preparación del textil
-          p Algunos textiles se pueden encoger o aumentar después de ser sometidos al lavado o planchado, por tal motivo, se sugiere que antes de realizar cualquier proceso de extendido y corte, el textil sea sometido a lo siguiente:
+          p Algunos textiles se pueden encoger o aumentar después de ser sometidos al lavado o planchado, por tal motivo, se sugiere que antes, de realizar cualquier proceso de extendido y corte, el textil sea sometido a lo siguiente:
           ul.lista-ul--color.fa-ul
             li.mb-1 
               i.fas.fa-plus
@@ -679,7 +679,7 @@
               h5 Figura 155.
               span Distribución de piezas en tendido cerrado alineadas al doblez y al orillo de la tela
             figure
-              img(src="@/assets/curso/temas/tema2/tarjeta6/imagen2.svg", alt='Esquema de tendido cerrado donde las piezas del patrón se ubican sobre el doblez de la tela y paralelas al orillo para obtener piezas simétricas completas.')
+              img(src="@/assets/curso/temas/tema2/tarjeta6/imagen2.svg", alt='Esquema de tendido cerrado donde las piezas del patrón se ubican sobre el doblez de la tela y paralelas al orillo para obtener piezas simétricas.')
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -697,10 +697,10 @@
             h5 Figura 156.
             span Representación del extendido industrial cara arriba para el tendido de capas de tela
           figure
-            img(src="@/assets/curso/temas/tema2/tarjeta7/imagen1.svg" alt="Esquema de extendido cara arriba donde las capas de tela se colocan en la misma dirección, manteniendo visible el derecho de la tela y alineando los orillos.")
+            img(src="@/assets/curso/temas/tema2/tarjeta7/imagen1.svg" alt="Esquema de extendido cara arriba donde las capas de tela se colocan en la misma dirección, con el derecho visible y los orillos alineados.")
       .row(titulo="Extendido al lomo o doblez de tela")
         .col-lg-4.mb-4.mb-md-0
-          p Se realiza cuando la tela se dobla a la mitad de su ancho, se une orillo con orillo formando un doblez de tela en un extremo, conocido como lomo. Al doblar la tela queda derecho con derecho, lo que se denomina careado o cara a cara. Este tipo de extendido se utiliza para cortar prototipos, es utilizado por modistas o sastres.
+          p Se realiza cuando la tela se dobla a la mitad de su ancho, se une orillo con orillo formando un doblez de tela en un extremo, conocido como lomo. Al doblar la tela, queda derecho con derecho, lo que se denomina careado o cara a cara. Este tipo de extendido se utiliza para cortar prototipos, es utilizado por modistas o sastres.
         .col-md-8.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 157.
@@ -719,7 +719,7 @@
             img(src="@/assets/curso/temas/tema2/tarjeta7/imagen3.svg" alt="Extendido cara a cara donde las capas de tela se colocan alternando el derecho y el revés, quedando enfrentadas para optimizar el proceso de corte.")
       .row(titulo="Extendido <em>zigzag</em>")
         .col-lg-4.mb-4.mb-md-0
-          p El proceso es igual al extendido cara a cara, la diferencia es que no se cortan los extremos. Una vez llegado al extremo dobla sobre sí mismo para hacer el recorrido en sentido contrario. De esta forma las capas de tela deben quedar pares cara con cara y revés con revés.
+          p El proceso es igual al extendido cara a cara, la diferencia es que no se cortan los extremos. Una vez llegado al extremo dobla, sobre sí mismo para hacer el recorrido en sentido contrario. De esta forma, las capas de tela deben quedar pares, cara con cara y revés con revés.
         .col-md-8.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 159.
@@ -768,7 +768,7 @@
 
     .row.justify-content-center.mb-5
       .col-sm-12.col-md-7.col-lg-7
-        p.mb-4 Para tener claro los requerimientos desde el área de patronaje es importante identificar y conocer la respectiva señalización de patrones:
+        p.mb-4 Para tener claro, los requerimientos desde el área de patronaje, es importante identificar y conocer la respectiva señalización de patrones:
         .row.justify-content-center
           .col-lg-6.col-sm-12.col-md-6
             ul.lista-ul--color.fa-ul
@@ -807,21 +807,21 @@
           i.fas.fa-circle
           span.mb-0.h4  Señalización - Hilos de tela
     
-    p Para tener claro los requerimientos desde el área de patronaje es importante identificar y conocer la respectiva señalización de patrones:
+    p A continuación, se detallan las especificaciones técnicas y variantes correspondientes a la dirección y aplicación del hilo en los moldes:
 
     .row.justify-content-center.mb-4     
       .col-lg-3.col-md-4.col-10.mb-3
         .tarjeta.bg7.text-center.h-100.p-4
           img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen1.png', alt='')
-          h5 Requerimientos desde patronaje.
+          h5 Urdimbre.
       .col-lg-3.col-md-4.col-10.mb-3
         .tarjeta.bg8.text-center.h-100.p-4
           img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen2.png', alt='')
-          h5 Tendido y marcación.
+          h5 Trama.
       .col-lg-3.col-md-4.col-10.mb-3
         .tarjeta.bg7.text-center.h-100.p-4
           img.px-lg-5(src='@/assets/curso/temas/tema2/tarjeta9/imagen3.png', alt='')
-          h5 Características del material.
+          h5 Sesgo o bies.
     
     p.mb-4 Hilo de tela una cabeza hacia arriba, hilo de tela una cabeza hacia abajo, hilo de tela una cabeza doble.
 
@@ -856,7 +856,7 @@
             span Orientación direccional de las piezas según el sentido del hilo de tela
           figure
             img(src='@/assets/curso/temas/tema2/imagen30.png', alt='Piezas ubicadas en una sola dirección siguiendo el sentido del hilo de tela.')
-      .row.justify-content-around(titulo="Direccional - vello en un solo sentido")
+      .row.justify-content-around(titulo="Direccional, vello en un solo sentido")
         .col-lg-5.mb-4.mb-md-0
           p En este tipo de trazo, todas las piezas se orientan en una misma dirección para conservar la uniformidad visual y las características del material.
         .col-lg-5
@@ -870,19 +870,19 @@
           ul.lista-ul--color.fa-ul.color-primario
             li 
               i.fas.fa-plus
-              span.mb-0 #[b Referencia o diseño:] ref: 20201208
+              span.mb-0 #[b Referencia o diseño:] ref: 20201208.
             li
               i.fas.fa-plus
-              span.mb-0 #[b Nombre de la pieza:] delantero o frente
+              span.mb-0 #[b Nombre de la pieza:] delantero o frente.
             li
               i.fas.fa-plus
-              span.mb-0 #[b Número de veces a cortar o marcadas:] x 3 veces
+              span.mb-0 #[b Número de veces a cortar o marcadas:] x 3 veces.
             li
               i.fas.fa-plus
-              span.mb-0 #[b Tipo de material:] x 1 v material base x 1 v material forro x 1 v material entretela
+              span.mb-0 #[b Tipo de material:] x 1 v material base x 1 v material forro x 1 v material entretela.
             li
               i.fas.fa-plus
-              span.mb-0 #[b Número de pieza en el tendido:] 1/2
+              span.mb-0 #[b Número de pieza en el tendido:] 1/2.
         .col-md-6.col-lg-3
           img(src='@/assets/curso/temas/tema2/imagen32.png', alt='')
 
@@ -891,8 +891,8 @@
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5 Tendido marcación y corte
     
-    p.mb-4 El tendido y marcación son una parte clave para el proceso de corte, este procedimiento requiere de precisión y técnica. Una vez identificados los requerimientos desde el área de patronaje se procede a realizar el tendido y marcación, para ello es importante seguir los siguientes pasos:
-     
+    p.mb-4 El tendido y marcación son una parte clave para el proceso de corte, este procedimiento requiere de precisión y técnica. Una vez identificados los requerimientos desde el área de patronaje, se procede a realizar el tendido y marcación, para ello es importante seguir los siguientes pasos:
+    
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-6.col-md-6.col-lg-3.mb-3.mb-lg-0
         .tarjeta-avatar
@@ -950,7 +950,7 @@
           figure
             img(src="@/assets/curso/temas/tema2/imagen35.png" alt="Esquema que muestra cómo determinar el ancho útil de la tela descontando el ancho de los orillos del ancho total.")
   
-     
+    
     .subt2.mb-4
       ul.lista-ul.mb-0
         li.mb-0
@@ -1018,7 +1018,7 @@
           i.fas.fa-circle
           span.mb-0.h4 Tipos de marcación 
     
-    p.mb-4 Para transferir patrones al textil existen dos formas que son las más implementadas.
+    p.mb-4 Para transferir patrones al textil, existen dos formas que son las más implementadas.
 
     SlyderF.mb-4(columnas="col-md-6 col-xl-4" data-aos="fade")
       .tarjeta.bg1.h-100.p-4.py-lg-5
@@ -1086,21 +1086,19 @@
               h5 Pinar 
               p.mb-0 Insertar alfileres en el textil para asegurar el molde.
         .row.align-items-end
-          .col-sm-12.col-md-6.col-lg-4
+          .col-sm-12.col-md-6.col-lg-12
             p.mb-4 #[b Lo que no se debe hacer ]
             ul.lista-ul--color.fa-ul
-              li 
+              li.mb-0 
                 i.fas.fa-plus
                 span.mb-0 Asegurar con cinta.
-              li
+              li.mb-0
                 i.fas.fa-plus
                 span.mb-0 No fijar los patrones.
-          .col-sm-12.col-md-6.col-lg-8
-            ul.lista-ul--color.fa-ul
-              li
+              li.mb-0
                 i.fas.fa-plus
                 span.mb-0 No cortar el margen del patrón de forma inadecuada.
-              li
+              li.mb-0
                 i.fas.fa-plus
                 span.mb-0 Marcar con tiza de forma inadecuada.
 
@@ -1141,19 +1139,19 @@
           .col-8.col-lg-7
             img(src="@/assets/curso/temas/tema2/tarjeta11/imagen3.png" alt="")
         h4 #[b Tijeras  #[em zigzag ] ]
-        p Poseen dientes en las hojas, lo que crea un patrón de corte en  #[em zig zag ]. La función principal de este tipo de tijeras es la de evitar que se deshilache el textil después del corte.
+        p Poseen dientes en las hojas, lo que crea un patrón de corte en  #[em zig zag]. La función principal de este tipo de tijeras es la de evitar que se deshilache el textil después del corte.
       .tarjeta.bg2.p-4
         .row.justify-content-center.mb-3
           .col-8.col-lg-7
             img(src="@/assets/curso/temas/tema2/tarjeta11/imagen4.png" alt="")
         h4 #[b Cortadores térmicos ]
-        p Estos cortadores se emplean para el corte de acrílico y textiles. Una vez cortada la tela queda sellada y no se deshilacha.
+        p Estos cortadores se emplean para el corte de acrílico y textiles. Una vez cortada la tela, queda sellada y no se deshilacha.
       .tarjeta.bg2.p-4
         .row.justify-content-center.mb-3
           .col-8.col-lg-7
             img(src="@/assets/curso/temas/tema2/tarjeta11/imagen5.png" alt="")
         h4 #[b Cúter rotatorio ]
-        p Se caracteriza por ser el mejor cortador para telas, lonas, láminas plásticas, hule, vinilos y otros materiales textiles tejidos o no tejidos (fieltro). Su mango facilita el manejo, perfección y agilidad a la hora de cortar, se puede apoyar con reglas y otros elementos para una mejor precisión del corte.
+        p Se caracteriza por ser el mejor cortador para telas, lonas, láminas plásticas, hule, vinilos y otros materiales textiles, tejidos o no tejidos (fieltro). Su mango facilita el manejo, perfección y agilidad a la hora de cortar, se puede apoyar con reglas y otros elementos para una mejor precisión del corte.
 
     .row.justify-content-center.align-items-center
       .col-sm-12.col-md-7.col-lg-7
@@ -1235,7 +1233,7 @@
         .estilo1.p-4.h-100
           .row.justify-content-center
             .col-4.col-md-3.col-lg-3.mb-3.mb-md-0
-              img(src='@/assets/curso/temas/tema2/uno.svg' alt='')
+              img(src='@/assets/curso/temas/tema1/tarjeta2/uno.svg' alt='')
             .col-sm-12.col-md-9.col-lg-9
               h5 Acabados de la prenda 
               p.mb-0 Si no se tiene en cuenta el  #[em nap ] al momento de cortar la prenda, la prenda terminaría con brillos diferentes en cada pieza, necesitan un color y una textura uniforme en toda la pieza.
@@ -1243,7 +1241,7 @@
         .estilo1.p-4.h-100
           .row.justify-content-center
             .col-4.col-md-3.col-lg-3.mb-3.mb-md-0
-              img(src='@/assets/curso/temas/tema2/dos.svg' alt='')
+              img(src='@/assets/curso/temas/tema1/tarjeta2/dos.svg' alt='')
             .col-sm-12.col-md-9.col-lg-9
               h5 Determinar el consumo del textil 
               p.mb-0 Se debe determinar el consumo de material que requiere la prenda para garantizar que todo el textil sea suficiente para el corte, lo cual es una clara desventaja, ya que se desperdicia mucha tela al seguir un trazo direccional.
@@ -1312,7 +1310,7 @@
           .col-lg-6.bg6
             .p-4
               p #[b Tips de corte, piel sintética ]
-              p.mb-0 Cortar en el sentido del  #[em nap]/vello. Realice cortadas pequeñas, preferible con la punta de la tijeras. Una vez cortado se sugiere eliminar el exceso de vello/pelo por el margen de costura, teniendo en cuenta la dirección del pelo se recomienda confeccionarlo en esa misma dirección.
+              p.mb-0 Cortar en el sentido del  #[em nap]/vello. Realice cortadas pequeñas, preferible con la punta de las tijeras. Una vez cortado se sugiere eliminar el exceso de vello/pelo por el margen de costura, teniendo en cuenta la dirección del pelo se recomienda confeccionarlo en esa misma dirección.
           .col-lg-6
             .row.align-items-center
               .titulo-sexto.color-acento-botones.mb-3
@@ -1334,7 +1332,7 @@
           h5 Figura 169.
           span Orientación y corte de piezas en textiles estampados según la dirección del diseño
         figure
-          img(src="@/assets/curso/temas/tema2/imagen52.png" alt="Ilustración que muestra la colocación y corte de moldes sobre tela estampada, manteniendo todas las piezas en la misma dirección del diseño para conservar la orientación del estampado en la prenda terminada.")
+          img(src="@/assets/curso/temas/tema2/imagen52.png" alt="Ilustración de moldes sobre tela estampada, orientados en la misma dirección del diseño para conservar el estampado en la prenda.")
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block
@@ -1374,7 +1372,7 @@
           h5 Figura 170.
           span Recomendaciones para el tendido y corte de textiles a cuadros: alineación y concordancia del diseño
         figure
-          img(src="@/assets/curso/temas/tema2/imagen54.png" alt="Chaqueta de cuadros con indicaciones de puntos de concordancia del diseño y lista de recomendaciones para el tendido y corte, incluyendo trazo direccional, tendido abierto y fijación de patrones.")
+          img(src="@/assets/curso/temas/tema2/imagen54.png" alt="Chaqueta con puntos de concordancia del diseño y recomendaciones para el tendido y corte, con trazo direccional y fijación de patrones.")
 
 
     .subt2.mb-4

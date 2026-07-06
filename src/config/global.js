@@ -205,15 +205,15 @@ export default {
   referencias: [
     {
       referencia:
-        'Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3. Servicio Nacional de Aprendizaje SENA.',
+        'Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3. Servicio Nacional de Aprendizaje.',
     },
     {
       referencia:
-        'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011).  Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
+        'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
     },
     {
       referencia:
-        'Vélez, M., García M., Hincapié L. (1996).  Patronaje y escalado línea interior y deportiva.  Servicio Nacional de Aprendizaje SENA.',
+        'Vélez, M., García M., Hincapié L. (1996). Patronaje y escalado línea interior y deportiva. Servicio Nacional de Aprendizaje SENA.',
     },
   ],
   creditos: [

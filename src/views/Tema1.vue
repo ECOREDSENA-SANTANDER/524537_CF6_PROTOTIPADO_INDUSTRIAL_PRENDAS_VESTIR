@@ -23,7 +23,7 @@
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/subt.svg', alt='')
-        h3.mb-0.ms-2 Reconocimiento interfaz de Optitex
+        h3.mb-0.ms-2 Reconocimiento de interfaz de Optitex
     
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-sm-12.col-md-5.col-lg-3
@@ -55,7 +55,7 @@
       .col-12.col-md-7.col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
-          span Interfaz del software de patronaje digital Optitex
+          span Interfaz del #[em software] de patronaje digital Optitex
         figure
           img(src="@/assets/curso/temas/tema1/imagen1.png", alt="Captura de pantalla del software Optitex con herramientas y paneles para el diseño digital de patrones de confección.")
 
@@ -71,17 +71,17 @@
           .col-lg-5.col-md-6.mb-4.mb-md-0          
             ol.lista-ol.fa-ul
               li 
-                span.text-bold A)
-                span.mb-0 En la barra de menú #[b vista] seleccione la opción #[b caja de herramientas] y active la ventana de #[b herramientas], ubicada al lado izquierdo de la pantalla.
+                span.text-bold a)
+                span.mb-0 En la barra de menú, seleccione vista y luego la opción caja de herramientas para activar la ventana que contiene las herramientas de trabajo.
               li 
-                span.text-bold B) 
-                span.mb-0 Otra manera de visualizar las herramientas es #[b situar el cursor debajo de la barra de menú], y con clic derecho observar las que están disponibles.
+                span.text-bold b) 
+                span.mb-0 Otra forma de acceder a las herramientas es ubicar el cursor debajo de la barra de menú, hacer clic derecho y seleccionar las herramientas disponibles en el menú contextual.
               li 
-                span.text-bold C) 
-                span.mb-0 De igual manera, se pueden activar las herramientas que se necesitan y dejar inactivas las que no se estén utilizando en el momento.
+                span.text-bold c) 
+                span.mb-0 Las herramientas pueden activarse o desactivarse según las necesidades del trabajo. Para ello, ubique el cursor sobre el nombre de la herramienta y haga clic para cambiar su estado. 
           .col-lg-6.col-md-6
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 2.
+              h5 Figura 2. 
               span Uso de herramientas de edición y selección en Optitex
             figure
               img(src="@/assets/curso/temas/tema1/tarjeta1/imagen1.svg", alt='Software de patronaje que muestra el menú Ventana con opciones para activar y visualizar diferentes capas de trabajo.')
@@ -113,7 +113,7 @@
                 h5 Figura 4.
                 span Acceso a herramientas de edición y comandos rápidos en Optitex
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta2/imagen1.png", alt='Software de patronaje con el menú Ventana abierto, resaltando las opciones de capas y visualización de elementos del espacio de trabajo.')
+                img(src="@/assets/curso/temas/tema1/tarjeta2/imagen1.png", alt='Captura de pantalla de Optitex que muestra la ruta para ingresar a Preferencias desde el menú superior Herramientas.')
           .row.justify-content-center
             .col-lg-4.col-md-5.mb-4.mb-md-0
               p En esa ventana se puede configurar:
@@ -146,8 +146,17 @@
                 img(src="@/assets/curso/temas/tema1/tarjeta2/imagen2.png", alt='Pantalla de la ventana de preferencias de Optitex con opciones de configuración de colores y apariencia del área de trabajo.')
           .row.justify-content-center
             .col-lg-4.col-md-5.mb-4.mb-md-0
-              p Al estar en la opción #[b preferencias], diríjase a la carpeta #[b principal] y seleccione #[b unidad]. 
-              p.mb-0 Esta ventana permite seleccionar la unidad de medida con la que desea trabajar.
+              p.mb-4 Para cambiar el sistema de medición con el que desea trabajar, siga esta ruta en el menú lateral:
+              ol.lista-ol--cuadro.fa-ol.mb-4
+                li 
+                  .lista-ol--cuadro__vineta
+                    span A
+                  span.mb-0 Seleccione la carpeta principal.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span B
+                  span.mb-0 Haga clic en la subcarpeta unidades de trabajo.
+              p.mb-0 A la derecha, localice el campo de selección desplegable titulado unidad. Al desplegarlo, elija la opción requerida según sus necesidades de patronaje: centímetros, milímetros, metros, pulgadas, pies o yardas.
             .col-lg-6.col-md-7
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 6.
@@ -155,65 +164,86 @@
               figure  
                 img(src="@/assets/curso/temas/tema1/tarjeta2/imagen3.png", alt='Pantalla de la ventana de preferencias de Optitex mostrando opciones de unidades de medida como centímetros, milímetros y pulgadas.')
           .row.justify-content-center
-            .col-lg-4.col-md-5.mb-4.mb-md-0
-              p.mb-0 Seleccione la carpeta, #[b colores], opción #[b configuración].
-              p #[b Activar o desactivar] el relleno de las piezas: 
+            .col-lg-6.col-md-5.mb-4.mb-md-0
+              p.mb-4 Dentro de la ventana de preferencias, navegue en el menú lateral izquierdo por la ruta de carpetas: colores y configuración.
+              p.mb-4 En el panel central, localice el campo de texto etiquetado como rellena pieza. A la derecha de este, al desplegar el menú de opciones, seleccione el criterio deseado para controlar el sombreado interno de los patrones:
               ol.lista-ol--cuadro.fa-ol
                 li 
                   .lista-ol--cuadro__vineta
                     span A
-                  span.mb-0 Todas las piezas del archivo.
+                  span.mb-0 #[b Opción "todos":] aplica el relleno a la totalidad de las piezas contenidas en el archivo.
                 li 
                   .lista-ol--cuadro__vineta
                     span B
-                  span.mb-0 Ninguna pieza.
+                  span.mb-0 #[b Opción "ninguna":] desactiva el sombreado interno en todas las piezas, mostrando únicamente sus líneas perimetrales.
                 li 
                   .lista-ol--cuadro__vineta
                     span C
-                  span.mb-0 Solo la pieza seleccionada. También se puede seleccionar el método de relleno, que puede ser: por material, pieza y calidad.
+                  span.mb-0 #[b Opción "selección":] aplica el relleno de manera exclusiva a la pieza o molde que se encuentre activo en el área de diseño.
             .col-lg-6.col-md-7
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 7.
                 span Configuración de unidades de medida en preferencias de Optitex
               figure
                 img(src="@/assets/curso/temas/tema1/tarjeta2/imagen4.png", alt='Captura de pantalla de la ventana de preferencias de Optitex mostrando opciones de unidades de medida como centímetros, milímetros y pulgadas.')
+            p.mb-0 Asimismo, en esta misma sección de la interfaz, el campo de texto metodo relleno permite clasificar y ordenar el sombreado mediante su respectivo menú desplegable bajo tres criterios: por material, pieza o calidad.
           .row.justify-content-center
-            .col-lg-4.col-md-5.mb-4.mb-md-0
-              p Ahora, seleccione la carpeta #[b colores], opción #[b general]. Ahí se puede modificar el #[b área de trabajo]:
+            .col-lg-6.col-md-5.mb-4.mb-md-0
+              p.mb-4 Para modificar la apariencia y el contraste de la interfaz, navegue en el menú lateral izquierdo por la ruta de carpetas: colores, general.
+              p.mb-4 Al seleccionar esta opción, el panel de la derecha mostrará dos listas de campos con controles desplegables para su configuración:
               ol.lista-ol--cuadro.fa-ol
                 li 
                   .lista-ol--cuadro__vineta
                     span A
-                  span.mb-0 Color del fondo.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span B
-                  span.mb-0 Líneas guías.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span C
-                  span.mb-0 Color de las reglas.
-              p En la pieza:
-              ol.lista-ol--cuadro.fa-ol
-                li 
-                  .lista-ol--cuadro__vineta
-                    span A
-                  span.mb-0 Color del relleno de las piezas.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span B
-                  span.mb-0 Color de la pieza seleccionada.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span C
-                  span.mb-0 Color del contorno seleccionado.
+                  span.mb-0 Lista "Área de trabajo"
+              p.mb-4 Regula los elementos del fondo de la pantalla mediante los siguientes campos de texto:
+              ul.lista-ul--color.fa-ul.color-primario.mb-0
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Fondo:] superficie principal de diseño.
+                li.mb-0
+                  i.fas.fa-plus
+                  span.mb-0 #[b Color de línea guía:] ejes de referencia en pantalla.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Rejilla y Rayas:] cuadrícula trasera de soporte.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Color de las reglas:] barras de medición métricas.
             .col-lg-6.col-md-7
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 8.
                 span Configuración de colores y apariencia del área de trabajo en Optitex
               figure
                 img(src="@/assets/curso/temas/tema1/tarjeta2/imagen5.png", alt='Ventana de preferencias de un software de patronaje con la opción General seleccionada y una paleta de colores para personalizar el área de trabajo.')
-    
+            ol.lista-ol--cuadro.fa-ol
+              li 
+                .lista-ol--cuadro__vineta
+                  span B
+                span.mb-0 Lista "Pieza
+              p.mb-3 Regula la visualización de los moldes mediante los siguientes campos de texto:
+              ul.lista-ul--color.fa-ul.color-primario.mb-3
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Color de relleno:] tono de la superficie interna del molde.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Rellena el set de modelo actual:] sombreado del conjunto activo.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Color de la pieza seleccionada:] destaca el patrón activo bajo el cursor.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Color para contorno seleccionado:] modifica el contraste de la línea del borde del molde.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Punto de piquete seleccionado:] apariencia de las muescas técnicas.
+                li.mb-0 
+                  i.fas.fa-plus
+                  span.mb-0 #[b Marque el color de punto:] coordenadas o nodos de los patrones.
+              p.mb-0 Control de selección
+              p.mb-0 Al presionar sobre cualquiera de estos campos, se abrirá un cuadro flotante que contiene opciones predefinidas y un botón inferior de texto titulado #[em "More Colors"] (Más colores) para un ajuste preciso.
+
 
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -313,7 +343,7 @@
                 h5 Figura 12.
                 span Generación de la base de falda femenina mediante la herramienta crear rectángulo
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen1.png", alt='Ventana "crear rectángulo" con las medidas de ancho y largo para generar la pieza base de una falda, mostrada a la derecha en el área de trabajo.')
+                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen1.png", alt="Ventana 'crear rectángulo' con las medidas de ancho y largo para generar la pieza base de una falda, mostrada a la derecha en el área de trabajo.")
           .row.justify-content-center
             .col-lg-4.col-md-5.mb-4.mb-md-0
               p #[b B.] Tome herramienta punto para asignar sobre el rectángulo los puntos necesarios para darle forma a la falda. Sobre la línea vertical derecha marcar:
@@ -508,7 +538,7 @@
                 h5 Figura 31.
                 span Ajuste de la curva de cintura mediante la herramienta mover punto y una línea guía de referencia
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen20.svg", alt='Ventana de la herramienta Mover Punto utilizada para bajar el punto de cintura y modelar la curva de cintura siguiendo una línea guía en la pieza posterior de la falda.')
+                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen20.svg", alt='Ventana de la herramienta Mover Punto para bajar el punto de cintura y modelar la curva siguiendo la guía en la pieza posterior.')
           .row.justify-content-center
             .col-lg-4.col-md-5.mb-4.mb-md-0
               p #[b U.] Para marcar la pinza, en el grupo de herramientas de insertar tome la herramienta pinza, opción añadir y girar pinza. Para marcar la pinza en relación con la separación de busto, se debe tener en cuenta la medida del primer lado de la pinza, marque en absoluto la medida del primer lado de la pinza; marque la medida de la amplitud de la pinza.
@@ -517,7 +547,7 @@
                 h5 Figura 32.
                 span Ubicación de la pinza mediante la herramienta añadir y girar pinza y la definición de sus puntos de referencia
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen21.svg", alt='Herramienta Añadir y Girar Pinza y ventana de atributos de punto utilizadas para definir la posición y amplitud de la pinza en la pieza posterior de la falda.')
+                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen21.svg", alt='Herramienta Añadir y Girar Pinza y ventana de atributos para definir la posición y amplitud de la pinza en la pieza posterior.')
           .row.justify-content-center
             .col-lg-4.col-md-5.mb-4.mb-md-0
               p #[b V.] En la pestaña propiedades, opción profundidad, asigne la medida de profundidad o largo de la pinza.
@@ -535,7 +565,7 @@
                 h5 Figura 34.
                 span Modificación del hilo de tela mediante la opción mover pieza interna en la caja de herramientas
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen23.svg", alt='Caja de herramientas con la opción Mover Pieza Interna y secuencia de traslado del hilo de tela desde la pieza delantera hacia la pieza posterior de la falda.')
+                img(src="@/assets/curso/temas/tema1/tarjeta4/imagen23.svg", alt='Caja de herramientas con la opción Mover Pieza Interna y traslado del hilo de tela desde la pieza delantera hacia la posterior.')
 
     p Para una mejor comprensión, revisar el siguiente video de “trazo de falda básica”.
 
@@ -561,7 +591,7 @@
           span.mb-0.h4 Parte posterior talla 10.
 
     AcordionA.mb-4(tipo="b" clase-tarjeta="tarjeta tarjeta--purple" data-aos="fade")
-      .row(titulo="Paso 1")
+      .row(titulo="Paso A")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Inicie creando un archivo nuevo, sobre el archivo cree un rectángulo con las siguientes medidas:
           ul.lista-ul--color.fa-ul.color-primario
@@ -577,7 +607,7 @@
             span Creación del archivo base para el trazado de la parte posterior de la blusa femenina mediante un rectángulo de referencia
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen1.svg", alt='Archivo inicial con rectángulo base y referencias para el trazado de la parte posterior de la blusa.')
-      .row(titulo="Paso 2")
+      .row(titulo="Paso B")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Haga doble clic sobre el #[b ángulo del escote ] y cambie el atributo del punto, #[b desmarcando escalado y señalando curva. ]
         .col-lg-7.col-md-8
@@ -586,7 +616,7 @@
             span Modificación de atributos del punto en el escote mediante la ventana atributos de punto
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen2.svg", alt='Ventana Atributos de Punto utilizada para activar curva y desactivar escalado en el punto del escote.')
-      .row(titulo="Paso 3")
+      .row(titulo="Paso C")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Los ángulos del hombro y continuación de la sisa se suprimen. El patrón queda como lo señala la imagen.
         .col-lg-7.col-md-8
@@ -595,7 +625,7 @@
             span Eliminación de los ángulos del hombro y ajuste de la línea de sisa en el patrón posterior
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen3.svg", alt='Secuencia del patrón posterior después de eliminar los ángulos del hombro y ajustar la línea de sisa.')
-      .row(titulo="Paso 4")
+      .row(titulo="Paso D")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Con la herramienta #[b medir ] se señala el segmento del hombro en el sentido de las manecillas del reloj. Haga clic en el botón #[b editar largo del segmento]; este a su vez abre la ventana largo del segmento.
           p En la ventana editar largo del segmento, escribir 12 cm para el largo y escoja la opción #[b primer horizontal]. Esta opción se selecciona porque el punto correspondiente al ángulo del hombro sisa es el que debe moverse al realizar el cambio de medida, y elija primer horizontal porque es el punto inicial.
@@ -605,7 +635,7 @@
             span Modificación de la longitud del hombro mediante la herramienta medir y la ventana editar largo del segmento
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen4.svg", alt='Uso de la herramienta Medir para ajustar la longitud del hombro desde la ventana Editar Largo del Segmento.')
-      .row(titulo="Paso 5")
+      .row(titulo="Paso E")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Ubique el punto mitad de sisa (mitad de la distancia entre el escote y altura de sisa), y marque también sobre la línea donde formará la curva de sisa.
         .col-lg-7.col-md-8
@@ -614,7 +644,7 @@
             span Ubicación del punto medio de la sisa para la construcción de la curva mediante puntos de referencia
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen5.svg", alt='Patrón posterior con la ubicación del punto medio de la sisa y referencias para trazar la curva.')
-      .row(titulo="Paso 6")
+      .row(titulo="Paso F")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Mida  la distancia señalada en la gráfica y a esta, réstele el valor de la mitad del ancho de espalda para saber cuánto debe #[b mover el punto ] de la sisa, con el fin de darle la forma a la misma; con la herramienta mover punto, mueva en X el valor que se debe restar para darle la medida de ancho de espalda, y en Y debe quedar 0.
         .col-lg-7.col-md-8
@@ -623,7 +653,7 @@
             span Ajuste de la posición del punto de sisa mediante la herramienta mover punto para definir el ancho de espalda
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen6.svg", alt='Uso de la herramienta Mover Punto para desplazar el punto de sisa y ajustar el ancho de espalda.')
-      .row(titulo="Paso 7")
+      .row(titulo="Paso G")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p #[b Dele la forma ] a la sisa siguiendo las indicaciones de las imágenes.
         .col-lg-7.col-md-8
@@ -632,7 +662,7 @@
             span Aplicación de herramientas para el trazado y modelado de la curva de sisa en la parte posterior
           figure
             img(src="@/assets/curso/temas/tema1/tarjeta5/imagen7.svg", alt='Secuencia de uso de herramientas para definir puntos y formar la curva de sisa en el patrón posterior.')
-      .row(titulo="Paso 8")
+      .row(titulo="Paso H")
         .col-lg-4.col-md-4.mb-4.mb-md-0
           p Con la herramienta mover punto, entalle la medida de cintura correspondiente a la talla. Fije un punto con atributo de escalado a 9 cm, que corresponde a la medida de la mitad de separación del busto. Según el método de patronaje utilizado, el costado posterior es igual a la medida A-B más 1 cm. Se edita el largo del segmento de costado, siguiendo las indicaciones de la imagen.
         .col-lg-7.col-md-8
@@ -823,7 +853,7 @@
       SlyderA(tipo="b")
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 1. ] Para dar inicio se parte de la base superior delantera, trace una línea guía hasta la línea de cintura o largo de talle delantero.
+            p Para dar inicio se parte de la base superior delantera, trace una línea guía hasta la línea de cintura o largo de talle delantero.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 57.
@@ -832,7 +862,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen1.svg", alt='Base superior delantera y posterior con línea guía trazada hasta la cintura para iniciar el traslado de pinza.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 2. ] Traiga  una línea guía de la regla vertical y llévela hasta el ángulo #[b cintura costado.] Con la herramienta #[b mover punto,] lleve el ángulo cintura costado a la intersección de las dos líneas guías.
+            p Traiga  una línea guía de la regla vertical y llévela hasta el ángulo #[b cintura costado.] Con la herramienta #[b mover punto,] lleve el ángulo cintura costado a la intersección de las dos líneas guías.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 58.
@@ -841,7 +871,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen2.svg", alt='Desplazamiento del punto de cintura costado hasta la intersección de las líneas guía mediante la herramienta Mover punto.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 3. ] Valide que la línea de cintura esté #[b totalmente recta] sobre la línea de talle delantero, y verifique con la #[b tecla F8] qué medida tiene la cintura.
+            p Valide que la línea de cintura esté #[b totalmente recta] sobre la línea de talle delantero, y verifique con la #[b tecla F8] qué medida tiene la cintura.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 59.
@@ -850,7 +880,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen3.svg", alt='Patrones delantero y posterior con medidas visibles para comprobar la alineación y dimensión de la cintura.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 4. ] En la línea de cintura se identifica un punto con atributo de escalado a 9 cm, este punto determina la medida de separación del busto. #[b Medida de cintura:]
+            p En la línea de cintura se identifica un punto con atributo de escalado a 9 cm, este punto determina la medida de separación del busto. #[b Medida de cintura:]
             ul.lista-ul--color.fa-ul.color-primario
               li 
                 i.fas.fa-plus
@@ -864,7 +894,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen4.svg", alt='Asignación del punto de separación de busto sobre la línea de cintura mediante la herramienta Punto sobre y atributos de punto.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 5. ] Dé clic derecho, escoja la herramienta #[b selección], señale el punto del costado y suprimir. Para verificar nuevamente las medidas, oprimir la #[b tecla F8].
+            p Dé clic derecho, escoja la herramienta #[b selección], señale el punto del costado y suprimir. Para verificar nuevamente las medidas, oprimir la #[b tecla F8].
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 61.
@@ -873,7 +903,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen5.svg", alt='Patrón delantero con menú de la herramienta Selección para eliminar el punto de costado y comprobar las medidas finales.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 6. ] Si la medida de los costados de la pieza del frente y del posterior no coinciden, trace una pinza correctiva de talle. Con la herramienta #[b punto sobre], ubicar un punto a 5 cm por debajo de la altura de la sisa.
+            p Si la medida de los costados de la pieza del frente y del posterior no coinciden, trace una pinza correctiva de talle. Con la herramienta #[b punto sobre], ubicar un punto a 5 cm por debajo de la altura de la sisa.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 62.
@@ -882,7 +912,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen6.svg", alt='Ventana de atributos de punto y patrón delantero mostrando la ubicación de un punto a 5 cm por debajo de la altura de sisa para trazar una pinza correctiva.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 7. ] Marque una línea guía, exactamente al #[b punto ] de los 5 cm. Con la herramienta punto, fijar ese mismo punto sobre la línea centro frente. Marque una línea guía vertical para identificar el #[b vértice de pinza.]
+            p Marque una línea guía, exactamente al #[b punto ] de los 5 cm. Con la herramienta punto, fijar ese mismo punto sobre la línea centro frente. Marque una línea guía vertical para identificar el #[b vértice de pinza.]
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 63.
@@ -891,7 +921,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen7.svg", alt='Patrón delantero con líneas guía horizontal y vertical utilizadas para ubicar el vértice de la pinza.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 8. ] Para verificar el largo de los costados, oprima la #[b tecla F8]. Para validar el largo del costado delantero, tome la medida con la herramienta #[b medir], del grupo de herramientas de pieza, o sume los dos segmentos que aparecen.
+            p Para verificar el largo de los costados, oprima la #[b tecla F8]. Para validar el largo del costado delantero, tome la medida con la herramienta #[b medir], del grupo de herramientas de pieza, o sume los dos segmentos que aparecen.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 64.
@@ -900,7 +930,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen8.svg", alt='Patrones delantero y posterior con medidas visibles y ventana de la herramienta Medir para verificar la longitud de los costados.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 9. ] Para poder deducir la #[b medida de la pinza], en el grupo de herramientas #[b vista], opción #[b otras herramientas], seleccione #[b calculadora. ]
+            p Para poder deducir la #[b medida de la pinza], en el grupo de herramientas #[b vista], opción #[b otras herramientas], seleccione #[b calculadora. ]
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 65.
@@ -909,7 +939,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen9.svg", alt='Menú de Optitex y calculadora utilizados para obtener la medida necesaria de la pinza correctiva.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 10. ] Después de tener clara la medida de la pinza, #[b marque pinza]. Tome la herramienta #[b pinza], opción #[b insertar pinza], desde el punto de los 5 cm de altura de busto, dar la medida correspondiente a la amplitud de la pinza, marque la #[b profundidad o el largo ] de pinza, hasta la intersección de las líneas guías, correspondiente al vértice de pinza o altura de busto.
+            p Después de tener clara la medida de la pinza, #[b marque pinza]. Tome la herramienta #[b pinza], opción #[b insertar pinza], desde el punto de los 5 cm de altura de busto, dar la medida correspondiente a la amplitud de la pinza, marque la #[b profundidad o el largo ] de pinza, hasta la intersección de las líneas guías, correspondiente al vértice de pinza o altura de busto.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 66.
@@ -918,7 +948,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen10.svg", alt='Patrón delantero con la herramienta Pinza utilizada para definir la amplitud y profundidad de la pinza en la altura de busto.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 11. ] Con la pinza correctiva de talle se realizarán todos los traslados de pinza. Para crear la pinza de entalle o ajuste por cintura, primero #[b elimine líneas guías y limpie el área de trabajo]. Tome la herramienta pinza, opción #[b insertar pinza] y asigne la medida para el primer y segundo lado de pinza. La pinza de entalle debe quedar entre 2 a 3 cm por debajo de la pinza de recuperación de talle.
+            p Con la pinza correctiva de talle se realizarán todos los traslados de pinza. Para crear la pinza de entalle o ajuste por cintura, primero #[b elimine líneas guías y limpie el área de trabajo]. Tome la herramienta pinza, opción #[b insertar pinza] y asigne la medida para el primer y segundo lado de pinza. La pinza de entalle debe quedar entre 2 a 3 cm por debajo de la pinza de recuperación de talle.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 67.
@@ -927,7 +957,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen11.svg", alt='Secuencia de creación de pinzas de entalle en el patrón delantero mediante la herramienta Pinza y ajuste de sus posiciones.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 12. ] Para realizar el traslado de pinza se sugiere que mueva el hilo de tela, con el fin de no interferir con el traslado seleccione la herramienta #[b mover interno] (tecla rápida I).
+            p Para realizar el traslado de pinza se sugiere que mueva el hilo de tela, con el fin de no interferir con el traslado seleccione la herramienta #[b mover interno] (tecla rápida I).
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 68.
@@ -936,7 +966,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen12.svg", alt='Patrón delantero con la herramienta Mover interno utilizada para desplazar el hilo de tela antes de realizar el traslado de pinza.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 13. ] Como ya se identifican las pinzas y para poder actualizarlas pulse #[b clic derecho, opción, limpiar pieza, actualizar pieza. Eliminar o suprimir la pieza posterior.]
+            p Como ya se identifican las pinzas y para poder actualizarlas pulse #[b clic derecho, opción, limpiar pieza, actualizar pieza. Eliminar o suprimir la pieza posterior.]
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 69.
@@ -945,7 +975,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen13.svg", alt='Menú de edición y patrón delantero mostrando el proceso de actualización de la pieza tras el traslado de pinza.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 14. ] Para poder realizar los diferentes tipos de traslados de pinza, copie la pieza actual del delantero. Para copiar la pieza, en la ventana pieza dé clic #[b derecho en pieza - crear como nueva]. Cree las copias que considere necesarias de acuerdo con la cantidad de traslados de pinza que se vayan a realizar.
+            p Para poder realizar los diferentes tipos de traslados de pinza, copie la pieza actual del delantero. Para copiar la pieza, en la ventana pieza dé clic #[b derecho en pieza - crear como nueva]. Cree las copias que considere necesarias de acuerdo con la cantidad de traslados de pinza que se vayan a realizar.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 70.
@@ -954,7 +984,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen14.svg", alt='Menú de piezas y copias del patrón delantero utilizadas para generar nuevas versiones antes de efectuar distintos traslados de pinza.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 15. ] Para empezar los traslados de pinza inicie con un traslado de hombro, tome #[b herramienta pinza], opción #[b añadir y girar pinza]. Al acercarse al vértice de pinza, de la pinza correctiva de talle, se identifica un cambio de color, señalando qué se puede modificar o trasladar.
+            p Para empezar los traslados de pinza inicie con un traslado de hombro, tome #[b herramienta pinza], opción #[b añadir y girar pinza]. Al acercarse al vértice de pinza, de la pinza correctiva de talle, se identifica un cambio de color, señalando qué se puede modificar o trasladar.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 71.
@@ -963,7 +993,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen15.svg", alt='Menú de la herramienta Pinza y patrón delantero mostrando la selección de la pinza correctiva para iniciar su traslado al hombro.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 16. ] En el sentido de las manecillas del reloj se traslada la pinza hacia el hombro para que la pinza quede en toda la mitad de la medida o el largo de hombro; en la ventana de diálogo #[b casilla proporcional] asigne 0.5. Al validar la medida se identifica que el recorrido del patrón se torna de un color diferente desde un punto hacia el otro, esto quiere decir que ya está lista la pieza para realizar el traslado.
+            p En el sentido de las manecillas del reloj se traslada la pinza hacia el hombro para que la pinza quede en toda la mitad de la medida o el largo de hombro; en la ventana de diálogo #[b casilla proporcional] asigne 0.5. Al validar la medida se identifica que el recorrido del patrón se torna de un color diferente desde un punto hacia el otro, esto quiere decir que ya está lista la pieza para realizar el traslado.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 72.
@@ -972,7 +1002,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen16.svg", alt='Ventana de atributos y patrón delantero mostrando el traslado de la pinza hacia el hombro utilizando el valor proporcional.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 17. ] Haga clic sobre cualquier punto de la pieza, automáticamente la pinza se ancla y al cerrar o mover la pieza se identifica el traslado de la pinza hacia el lado deseado.
+            p Haga clic sobre cualquier punto de la pieza, automáticamente la pinza se ancla y al cerrar o mover la pieza se identifica el traslado de la pinza hacia el lado deseado.
           .col-lg-7.col-md-8
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 73.
@@ -981,7 +1011,7 @@
               img(src="@/assets/curso/temas/tema1/tarjeta8/imagen17.svg", alt='Traslado de la pinza correctiva de talle hacia el hombro en la base superior del frente utilizando la herramienta Añadir y girar pinza de Optitex.')
         .row.justify-content-center.my-lg-4
           .col-lg-4.col-md-4.mb-4.mb-md-0
-            p #[b 18. ] De esa manera se deben hacer los traslados de pinza a cada una de las partes del cuerpo.
+            p De esa manera se deben hacer los traslados de pinza a cada una de las partes del cuerpo.
             ol.lista-ol--cuadro.fa-ol
                 li 
                   .lista-ol--cuadro__vineta
@@ -1012,7 +1042,7 @@
               h5 Figura 74.
               span Aplicación de la herramienta añadir y girar pinza para realizar los diferentes traslados de pinza en el patrón delantero.
             figure
-              img(src="@/assets/curso/temas/tema1/tarjeta8/imagen18.svg", alt='Vistas del patrón delantero con ejemplos de traslados de pinza hacia hombro, sisa, costado, entalle, centro frente y escote utilizando la herramienta de traslado de pinza en Optitex.')
+              img(src="@/assets/curso/temas/tema1/tarjeta8/imagen18.svg", alt='Vistas del patrón delantero con traslados de pinza hacia hombro, sisa, costado, entalle, centro frente y escote en Optitex.')
 
     p Para una mejor comprensión del tema le invito a revisar el siguiente video sobre “traslados de pinza”.
     figure
@@ -1132,7 +1162,7 @@
                 h5 Figura 85.
                 span Aplicación del atributo de curva desde el panel de propiedades para suavizar el contorno de la pieza
               figure
-                img(src="@/assets/curso/temas/tema1/tarjeta9/imagen11.svg", alt='Pantalla de Optitex que muestra la activación del atributo de curva en el panel de propiedades y el resultado del contorno suavizado de la pieza de patronaje.')
+                img(src="@/assets/curso/temas/tema1/tarjeta9/imagen11.svg", alt='Pantalla de Optitex con la activación del atributo de curva en el panel de propiedades y el contorno suavizado de la pieza de patronaje.')
           .row.justify-content-center
             .col-lg-4.col-md-4.mb-4.mb-md-0
               p #[b L. ] Para evitar modificar todo el trayecto se sugiere agregar punto en ambas direcciones y colocar la medida del trayecto dependiendo del volumen del busto o copa, sin seleccionar ningún atributo.
