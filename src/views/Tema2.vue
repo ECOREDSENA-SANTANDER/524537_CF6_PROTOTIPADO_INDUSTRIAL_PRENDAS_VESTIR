@@ -719,7 +719,7 @@
             img(src="@/assets/curso/temas/tema2/tarjeta7/imagen3.svg" alt="Extendido cara a cara donde las capas de tela se colocan alternando el derecho y el revés, quedando enfrentadas para optimizar el proceso de corte.")
       .row(titulo="Extendido <em>zigzag</em>")
         .col-lg-4.mb-4.mb-md-0
-          p El proceso es igual al extendido cara a cara, la diferencia es que no se cortan los extremos. Una vez llegado al extremo dobla, sobre sí mismo para hacer el recorrido en sentido contrario. De esta forma, las capas de tela deben quedar pares, cara con cara y revés con revés.
+          p El proceso es igual al extendido cara a cara, la diferencia es que no se cortan los extremos. Una vez llegado al extremo, dobla sobre sí mismo para hacer el recorrido en sentido contrario. De esta forma, las capas de tela deben quedar pares, cara con cara y revés con revés.
         .col-md-8.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 159.
